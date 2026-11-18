@@ -1,0 +1,61 @@
+# GitHub README for Make.fun Guide Bounty
+# This file should NOT contain screenshot.png - it must be tracked
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js
+node_modules/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Temporary files
+tmp/
+*.tmp
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Distribution/ compilation
+dist/
+build/
+*.bundle.js
+*.map
+
+# Documentation
+doc/
+*.md
+
+# Secrets and keys
+.env
+.env.local
+.env.production
+
+# Miscellaneous
+*.dll
+*.so
+*.dylib
+
+# Screenshots should be tracked, not ignored
+# Do NOT add screenshots/ to .gitignore
+# Screenshot files should be committed to the repository
+
+# Backup files
+*.~lock*
+*.backup*
+
+# When you are ready with your actual screenshots, remove this line and add your screenshot files to the repository
+# Currently: screenshots/ directory is ready but empty - add your screenshot.png when ready
+# IMPORTANT: Do NOT add screenshots/ to .gitignore as per bounty requirements
+# The screenshot.png file must be committed to the repository
